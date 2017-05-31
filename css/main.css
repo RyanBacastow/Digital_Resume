@@ -1,0 +1,259 @@
+/********************************
+GENERAL
+*********************************/
+
+/*
+font-family: 'Montserrat Subrayada', sans-serif;
+font-family: 'Inconsolata', monospace;
+font-family: 'Pacifico', cursive;
+font-family: 'Orbitron', sans-serif;
+font-family: 'Kaushan Script', cursive;
+font-family: 'Courgette', cursive;
+font-family: 'Russo One', sans-serif;
+*/
+
+
+.background{
+    background-image: url(/img/lauren-mancke-60627.jpg);
+    background-size:auto;
+}
+
+body {
+    font-family: 'Russo One', sans-serif;
+}
+
+#wrapper {
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 0 5%;
+}
+
+a {
+    text-decoration: none;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+}
+
+h3 {
+    margin: 0 0 1em 0;
+}
+
+.jumbotron{
+    opacity: .9;
+}
+
+/********************************
+HEADING
+*********************************/
+
+header {
+    float: left;
+    margin: 0 0 30px 0;
+    padding: 5px 0 0 0;
+    width: 100%;
+}
+
+#logo {
+    text-align: center;
+    margin: 0;
+}
+
+
+h1 {
+    font-family: 'Courgette', cursive;
+    margin: 17px 0;
+    font-size: 4em;
+    font-weight: 900;
+    line-height: 1.3em;
+    color: #000;
+}
+
+
+h2 {
+    font-family: 'Raleway';
+    font-size: 1.6em;
+    margin: -5px 3px 0;
+    font-weight: 300;
+    line-height: 1em;
+    color: #000;
+}
+
+
+/********************************
+Navigation
+*********************************/
+
+nav {
+    text-align: center;
+    padding: 15px 0;
+    margin: 20px 0 0;
+    font-family: 'Inconsolata', monospace;
+    opacity: .9;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0 10px;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    font-weight: 800;
+    padding: 15px 10px;
+}
+
+
+/********************************
+FOOTER
+*********************************/
+
+footer {
+    font-size: 0.75em;
+    text-align: center;
+    clear: both;
+    padding-top: 50px;
+    color: #ccc;
+}
+
+.social-icon {
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+}
+
+
+/********************************
+PAGE: Portfolio
+*********************************/
+
+#gallery img {
+    width: 100%;
+}
+
+#gallery {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#gallery li {
+    float: right;
+    width: 45%;
+    margin: 2.5%;
+    background-color: #f5f5f5;
+    color: #bdc3c7;
+}
+
+#gallery li a p {
+    margin: 0;
+    padding: 5%;
+    font-size: 1em;
+    font-weight: 450;
+    color: #696969;
+}
+
+
+/********************************
+PAGE: ABOUT
+*********************************/
+
+
+/*Photo of Me*/
+
+.profile-photo {
+    display: block;
+    max-width: 150px;
+    margin: 0 auto 310px;
+    border-radius: 20px;
+}
+
+#wrapper p {
+    font-size: 1.4em;
+    font-weight: 500;
+}
+
+/********************************
+PAGE: CONTACT
+*********************************/
+
+.contact-info {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 1.1em;
+}
+
+.contact-info a {
+    display: inline-block;
+    min-height: 20px;
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    padding: 0 0 0 30px;
+    margin: 0 0 10px;
+}
+
+.contact-info li.phone a {
+    background-image: url('../img/phone.png');
+}
+
+.contact-info li.mail a {
+    background-image: url('../img/mail.png');
+}
+
+.contact-info li.linkedin a {
+    background-image: url('../img/Linkedin-Icon.png');
+}
+
+
+/********************************
+COLORS
+*********************************/
+
+
+/* site body */
+
+body {
+    color: #000;
+}
+
+
+/* green header*/
+
+header {
+}
+
+
+/* nav background on mobile */
+
+
+
+/* links */
+
+a {
+    color: #6ab47b;
+}
+
+
+/* nav link color */
+
+nav a, nav a:visited {
+    color: #fff;
+}
+
+
+/* selected nav link */
+
+nav a.selected {
+    color: #32673f;
+}
+
+nav a:hover {
+    color: #32673f
+}
