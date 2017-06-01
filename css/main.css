@@ -12,20 +12,28 @@ font-family: 'Courgette', cursive;
 font-family: 'Russo One', sans-serif;
 */
 
+#about_section{
+    padding: 15px;
+    font-family: 'Russo One', sans-serif;
+}
+
 
 .background{
-    background-image: url(/img/lauren-mancke-60627.jpg);
-    background-size:auto;
+    background-image: url(/img/artem-sapegin-176819.jpg);
+    background-size: cover;
 }
 
 body {
     font-family: 'Russo One', sans-serif;
+    padding-top: 5px;
 }
 
 #wrapper {
     max-width: 940px;
     margin: 0 auto;
     padding: 0 5%;
+    border-radius: 15px;
+    text-align: center;
 }
 
 a {
@@ -35,78 +43,78 @@ a {
 
 img {
     max-width: 100%;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
 }
 
-h3 {
-    margin: 0 0 1em 0;
-}
-
-.jumbotron{
-    opacity: .9;
+.well {
+    align-content: center;
+    text-align: center;
+    opacity: .95;
 }
 
 /********************************
 HEADING
 *********************************/
-
-header {
-    float: left;
-    margin: 0 0 30px 0;
-    padding: 5px 0 0 0;
-    width: 100%;
-}
-
-#logo {
-    text-align: center;
-    margin: 0;
-}
-
-
 h1 {
-    font-family: 'Courgette', cursive;
-    margin: 17px 0;
-    font-size: 4em;
+    font-family: 'Kaushan Script', cursive;
+    padding: 15px;
+    margin: 0 auto;
     font-weight: 900;
-    line-height: 1.3em;
-    color: #000;
+    color: black;
+    font-size: 4em;
 }
 
 
 h2 {
     font-family: 'Raleway';
-    font-size: 1.6em;
     margin: -5px 3px 0;
     font-weight: 300;
-    line-height: 1em;
-    color: #000;
+    color: black;
+    padding-bottom: 20px;
+    padding-top: 10px;
 }
 
+#myHeader {
+    padding-top: 15px;
+    padding-bottom: 30px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 15px;
+    color: #000;
+    font-size 50px;
+    font-weight: bolder;
+}
 
 /********************************
 Navigation
 *********************************/
 
 nav {
-    text-align: center;
-    padding: 15px 0;
-    margin: 20px 0 0;
-    font-family: 'Inconsolata', monospace;
+    padding: 5px 0;
+    margin: 0 auto;
+    font-family: 'Raleway';
     opacity: .9;
+    max-width: 86%;
 }
 
 nav ul {
     list-style: none;
     margin: 0 10px;
     padding: 0;
+    align-content: center;
 }
 
 nav li {
-    display: inline-block;
+    display: grid;
+    padding: 1em;
+    text-align: center;
 }
 
 nav a {
     font-weight: 800;
     padding: 15px 10px;
+    font-size: 1.3em;
 }
 
 
@@ -149,15 +157,19 @@ PAGE: Portfolio
     margin: 2.5%;
     background-color: #f5f5f5;
     color: #bdc3c7;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #gallery li a p {
     margin: 0;
     padding: 5%;
-    font-size: 1em;
+    font-size: 2em;
     font-weight: 450;
     color: #696969;
 }
+
+
 
 
 /********************************
@@ -169,9 +181,12 @@ PAGE: ABOUT
 
 .profile-photo {
     display: block;
-    max-width: 150px;
-    margin: 0 auto 310px;
-    border-radius: 20px;
+    max-width: 200px;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    border-radius: 25px;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
 }
 
 #wrapper p {
@@ -224,15 +239,6 @@ body {
 }
 
 
-/* green header*/
-
-header {
-}
-
-
-/* nav background on mobile */
-
-
 
 /* links */
 
@@ -257,3 +263,8 @@ nav a.selected {
 nav a:hover {
     color: #32673f
 }
+
+
+
+---------------------------------------------
+

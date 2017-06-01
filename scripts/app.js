@@ -14,13 +14,13 @@ app.config(['$routeProvider', '$locationProvider', function ($routeProvider, $lo
     }).when("/contact", {
         templateUrl: "templates/contact.html",
     }).when("/back-end", {
-        templateUrl: "templates/back.html",
+        templateUrl: "templates/back-end.html",
     }).when("/data-analysis", {
-        templateUrl: "templates/data-analysis",
+        templateUrl: "templates/data-analysis.html",
     }).when("/front-end", {
         templateUrl: "templates/front-end.html",
     }).when("/all-projects", {
-        templateUrl: "templates/all-projects",
+        templateUrl: "templates/all-projects.html",
         controller: 'myController'
     });
 }]);
