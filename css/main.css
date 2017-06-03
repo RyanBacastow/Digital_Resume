@@ -2,7 +2,6 @@
 GENERAL
 *********************************/
 
-
 #about_section{
     padding: 15px;
     font-family: 'Inconsolata', monospace;
@@ -61,7 +60,7 @@ h2 {
     margin: -5px 3px 0;
     font-weight: 500;
     color: black;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     padding-top: 10px;
 }
 
@@ -165,12 +164,13 @@ PAGE: Portfolio
 }
 
 
-
-
 /********************************
 PAGE: ABOUT
 *********************************/
 
+#aboutHeader{
+    padding: 15px;
+}
 
 /*Photo of Me*/
 
@@ -178,16 +178,17 @@ PAGE: ABOUT
     display: block;
     max-width: 200px;
     margin: 0 auto;
-    padding-bottom: 10px;
     border-radius: 25px;
-    border-top-right-radius: 25px;
-    border-top-left-radius: 25px;
+    float: left;
+    padding-bottom: 7px;
+
 }
 
 #wrapper p {
     font-size: 1.4em;
     font-weight: 500;
 }
+
 
 /********************************
 PAGE: CONTACT
