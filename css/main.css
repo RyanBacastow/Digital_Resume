@@ -2,15 +2,6 @@
 GENERAL
 *********************************/
 
-/*
-font-family: 'Montserrat Subrayada', sans-serif;
-font-family: 'Inconsolata', monospace;
-font-family: 'Pacifico', cursive;
-font-family: 'Orbitron', sans-serif;
-font-family: 'Kaushan Script', cursive;
-font-family: 'Courgette', cursive;
-font-family: 'Russo One', sans-serif;
-*/
 
 #about_section{
     padding: 15px;
@@ -68,7 +59,7 @@ h1 {
 h2 {
     font-family: 'Raleway';
     margin: -5px 3px 0;
-    font-weight: 400;
+    font-weight: 500;
     color: black;
     padding-bottom: 20px;
     padding-top: 10px;
@@ -266,6 +257,12 @@ nav a.selected {
 
 nav a:hover {
     color: #32673f
+}
+
+#description{
+    color: black;
+    padding: 15px;
+    font-family: 'Inconsolata', monospace;
 }
 
 
