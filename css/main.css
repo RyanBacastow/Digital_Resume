@@ -10,6 +10,13 @@ GENERAL
 
 .background{
     background-image: url(/img/artem-sapegin-176819.jpg);
+    -webkit-background-size: 100%; 
+    -moz-background-size: 100%; 
+    -o-background-size: 100%; 
+    background-size: 100%; 
+    -webkit-background-size: cover; 
+    -moz-background-size: cover; 
+    -o-background-size: cover; 
     background-size: cover;
 }
 
@@ -84,29 +91,29 @@ Navigation
 *********************************/
 
 nav {
-    padding: 5px 0;
     margin: 0 auto;
     font-family: 'Raleway';
     opacity: .9;
-    max-width: 86%;
+    max-width: 81%;
 }
 
 nav ul {
     list-style: none;
-    margin: 0 10px;
+    margin: 0 .5%px;
     padding: 0;
     align-content: center;
 }
 
 nav li {
     display: grid;
-    padding: 1em;
+    padding-left: 10px;
+    padding-right: 10px;
     text-align: center;
 }
 
 nav a {
     font-weight: 800;
-    padding: 15px 10px;
+    padding: 1% .5%;
     font-size: 1.3em;
 }
 
@@ -173,12 +180,10 @@ PAGE: ABOUT
 
 /*Photo of Me*/
 
-#ryanphoto {
-    display: block;
+.profile-picture{
     max-width: 100%;
     margin: 0 auto;
     border-radius: 20px;
-    float: left;
     padding: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
