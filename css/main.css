@@ -33,8 +33,7 @@ a {
 
 img {
     max-width: 100%;
-    border-top-right-radius: 15px;
-    border-top-left-radius: 15px;
+    border-radius: 15px;
 }
 
 .well {
@@ -174,14 +173,14 @@ PAGE: ABOUT
 
 /*Photo of Me*/
 
-.profile-photo {
+#ryanphoto {
     display: block;
-    max-width: 200px;
+    max-width: 100%;
     margin: 0 auto;
-    border-radius: 25px;
+    border-radius: 20px;
     float: left;
-    padding-bottom: 7px;
-
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #wrapper p {
@@ -269,4 +268,3 @@ nav a:hover {
 
 
 ---------------------------------------------
-
