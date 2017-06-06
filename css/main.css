@@ -94,7 +94,9 @@ nav {
     margin: 0 auto;
     font-family: 'Raleway';
     opacity: .9;
-    max-width: 81%;
+    text-align: center;
+    align-content: center;
+    max-width: 80%;
 }
 
 nav ul {
@@ -108,12 +110,10 @@ nav li {
     display: grid;
     padding-left: 10px;
     padding-right: 10px;
-    text-align: center;
 }
 
 nav a {
     font-weight: 800;
-    padding: 1% .5%;
     font-size: 1.3em;
 }
 
@@ -143,6 +143,9 @@ PAGE: Portfolio
 
 #gallery img {
     width: 100%;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    
 }
 
 #gallery {
@@ -153,7 +156,7 @@ PAGE: Portfolio
 
 #gallery li {
     float: right;
-    width: 45%;
+    width: 100%;
     margin: 2.5%;
     background-color: #f5f5f5;
     color: #bdc3c7;
